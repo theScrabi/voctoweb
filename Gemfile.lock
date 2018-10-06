@@ -149,6 +149,10 @@ GEM
     get_process_mem (0.2.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    graphiql-rails (1.4.11)
+      railties
+      sprockets-rails
+    graphql (1.8.10)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -352,6 +356,8 @@ DEPENDENCIES
   exception_notification
   factory_bot_rails
   foreman
+  graphiql-rails
+  graphql
   haml
   jbuilder
   jquery-rails
@@ -377,4 +383,4 @@ DEPENDENCIES
   yajl-ruby
 
 BUNDLED WITH
-   1.16.2
+   1.16.4
